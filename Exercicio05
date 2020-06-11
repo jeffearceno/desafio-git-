@@ -1,0 +1,65 @@
+package senai;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio05 {
+
+     public static void main(String[] args) {
+		
+    		//
+     	// crie um algoritmo que guarde as caracteristicas de uma pessoa
+     	 //nome, idade, altura, peso, genero, email
+    	 
+     	 //exiba as informaçoes originais dessa pessoa e posteriormente
+
+     	 //faça envelhecer 2 anos e apresente
+    	 
+     	 //faça engordar 4.5 kg e apresente 
+     	 //faça encolher 1 cm e apresente
+     	 //pergunte um novo email e apresente
+    	 
+    	 String nome = "";
+    	 int idade = 0;
+    	 double altura = 0.0;
+    	 double peso = 0.0;
+    	 String sexo = "";
+    	 String email = "";
+    
+    	 nome = JOptionPane.showInputDialog("Digite seu nome");
+    	 idade = Integer.parseInt(JOptionPane.showInputDialog("Digite sua idade"));
+    	 altura = Double.parseDouble (JOptionPane.showInputDialog("Digite sua altura"));
+    	 peso = Double.parseDouble (JOptionPane.showInputDialog("Digite seu peso"));
+    	 sexo = JOptionPane.showInputDialog("Digite seu sexo");
+    	 email = JOptionPane.showInputDialog("Digite seu email");
+    	 
+    	 JOptionPane.showMessageDialog(null, "Seu nome  é " +nome+", sua idade é de "+idade+", você mede "+altura+
+    			 ", seu peso é de "+peso+", seu gênero é  "+sexo+" e seu email é "+email
+    			 );
+    	 
+    	 idade = idade + 2;
+    	 
+    	 JOptionPane.showMessageDialog(null, "Sua idade agora é de: "+idade);
+    	
+          peso = peso + 4.5;
+               
+          JOptionPane.showMessageDialog(null, "Seu peso agora é de: "+peso);
+          
+          altura = altura - 0.1;
+          
+          JOptionPane.showMessageDialog(null, "Sua altura agora é de: "+altura);
+          
+          email = JOptionPane.showInputDialog("Digite seu novo email"); 
+          
+          JOptionPane.showMessageDialog(null, "Seu email agora é : "+email);
+          
+          
+    	 
+    	 
+    	 
+    	 
+
+
+	}
+
+
+}
