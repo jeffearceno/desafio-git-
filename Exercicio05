@@ -7,7 +7,7 @@ public class Exercicio05 {
      public static void main(String[] args) {
 		
     		//
-     	// crie um algoritmo que guarde as caracteristicas de uma pessoa
+     	// crie um algoritmo que guarde as caracteristicas de uma pessoa.
      	 //nome, idade, altura, peso, genero, email
     	 
      	 //exiba as informaçoes originais dessa pessoa e posteriormente
